@@ -23,24 +23,30 @@
 
 Coding Structure
 task-manager/
-|_ server/
-|  |_ auth/ userAuth.js/
-│  |_ controllers/ userController.js/
-│  |_ models/ 
-|     |_ user.js
-|     |_ task.js
-│  |_ routes/ route.js/
-│  |_ index.js
-|  |_.env
-|_ client/
-│  |_ src/
-│     |_ pages/
-|       |_ Api.js
-|       |_ SignIN.js
-|       |_ userDetails.js
-│     |_ store/
-|        |_ Store.js
-|        |_ Auth.js
-|        |_ Task.js
-│  │  | App.js
-|_ README.md
+│
+├─ server/
+│ ├─ auth/
+│ │ └─ userAuth.js
+│ ├─ controllers/
+│ │ └─ userController.js
+│ ├─ models/
+│ │ ├─ user.js
+│ │ └─ task.js
+│ ├─ routes/
+│ │ └─ route.js
+│ ├─ index.js
+│ └─ .env
+│
+├─ client/
+│ ├─ src/
+│ │ ├─ pages/
+│ │ │ ├─ SignIN.js
+│ │ │ └─ userDetails.js
+│ │ ├─ Api.js
+│ │ ├─ store/
+│ │ │ ├─ Store.js
+│ │ │ ├─ Auth.js
+│ │ │ └─ Task.js
+│ │ └─ App.js
+│
+└─ README.md
