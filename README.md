@@ -20,3 +20,27 @@
  - PORT=5000
  - MONGO_URI=your_mongodb_connection_string
  - JWT_SECRET=your_jwt_secret
+
+Coding Structure
+task-manager/
+|_ server/
+|  |_ auth/ userAuth.js/
+│  |_ controllers/ userController.js/
+│  |_ models/ 
+|     |_ user.js
+|     |_ task.js
+│  |_ routes/ route.js/
+│  |_ index.js
+|  |_.env
+|_ client/
+│  |_ src/
+│     |_ pages/
+|       |_ Api.js
+|       |_ SignIN.js
+|       |_ userDetails.js
+│     |_ store/
+|        |_ Store.js
+|        |_ Auth.js
+|        |_ Task.js
+│  │  | App.js
+|_ README.md
